@@ -1,0 +1,89 @@
+body {
+    background: url("img/bg-shape2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#weather {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    color: indigo;
+    font-size: x-large;
+}
+
+#container {
+    color: whitesmoke;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+}
+
+#header {
+    color: indigo;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: medium;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#jokeContainer {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: x-large;
+}
+
+#mainButton {
+    border-radius: 2rem;
+    border: none;
+    background-color: rgb(255, 230, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: indigo;
+    box-shadow: 3px 3px 3px rgba(39, 11, 64, 0.2);
+    margin-top: 30px;
+    margin-bottom: auto;
+    padding: 15px;
+    font-size: large;
+    font-weight: 400;
+    padding-left: 25px;
+    padding-right: 25px;
+    z-index: 0;
+}
+
+#rate {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 15px;
+    font-size: large;
+}
+
+#nota1,
+#nota2,
+#nota3 {
+    border-radius: 5rem;
+    border: none;
+    background-color: rgb(255, 230, 0, 20%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 15px;
+    font-size: xx-large;
+    font-weight: 400;
+    margin-left: 5px;
+    margin-right: 5px;
+}
